@@ -1,7 +1,7 @@
 import turtle
 
 
-turtle.setup(1600,800,0,0)
+turtle.setup(1600, 800, 0, 0)
 
 
 # 正五角星的角尖是36度，拐度是108度
@@ -10,7 +10,7 @@ turtle.setup(1600,800,0,0)
 # ########### 五角星 ###################
 
 turtle.pensize(10)
-turtle.pencolor('red')
+turtle.pencolor("red")
 
 # turtle.forward(100)
 # turtle.left(72)
@@ -59,7 +59,21 @@ turtle.bk(120)
 
 # E
 turtle.right(60)
-turtle.fd(150)
+turtle.fd(120)
+turtle.left(90)
+turtle.fd(60)
+turtle.right(90)
+turtle.fd(60)
+turtle.bk(60)
+turtle.left(90)
+turtle.fd(60)
+turtle.right(90)
+turtle.fd(60)
+turtle.bk(60)
+turtle.right(90)
+turtle.fd(120)
+turtle.left(90)
+turtle.fd(85)
 
 # ------------- love -------------------
 
@@ -67,13 +81,7 @@ turtle.fd(150)
 turtle.mainloop()
 
 
-
-
-
-
-
-
-'''1.turtle库的简介
+"""1.turtle库的简介
 
 turtle(海龟)库是turtle绘图体系的python实现，turtle库是一种标准库，是python自带的。
 
@@ -261,4 +269,4 @@ turtle.done() 结束绘画后不立即退出，需要手动关闭。
 
 图片
 
-图片'''
+图片"""
